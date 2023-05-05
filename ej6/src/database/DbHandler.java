@@ -11,7 +11,7 @@ public class DbHandler {
 	private String user="root";
 	private String password="java";
 	private String db="javaMarketB";
-	private String options="?useLegacyDatetimeCode=false&serverTimezone=Asia/Hong_Kong";
+	private String options="?useLegacyDatetimeCode=false&serverTimezone=Asia/Hong_Kong"; //Puedo usar LocalDateTime para tener zona horario y fecha local
 	//private String options="";
 	private Connection conn=null;
 	
